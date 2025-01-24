@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <div className="container mx-auto">
-          <nav className="w-full sticky bg-white/300 backdrop-blur-md p-2 rounded-md top-0 right-0">
+          <nav className="sticky bg-white/300 backdrop-blur-md p-2 rounded-md top-0 right-0">
             <ul className="flex gap-2 ">
               <li>
                 <Link href={"/"}>Home</Link>

@@ -12,7 +12,7 @@ export default async function page({ params }) {
   
 
   return (
-    <div className="w-full  flex justify-center items-center">
+    <div className="  flex justify-center items-center">
       <div className="border w-1/2 p-3 rounded-lg bg-slate-700 text-white">
       <span className="font-bold text-blue-500">Post Id :</span>  {id}
         <hr />
