@@ -5,7 +5,17 @@ const fetchAllPost = async () => {
   return response.json();
 };
 
+
+
+
+
+
+
+
 export default async function Home() {
+
+
+
   const posts = await fetchAllPost();
 
   return (
